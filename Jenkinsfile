@@ -9,14 +9,14 @@ pipeline {
 
     agent any
 
-    /****
+    /*
      * Environment variables are accessible throughout the Pipeline.
-     ****
+     *
      * Adjust these values accordingly 
      */
     environment {
 
-        /*****
+        /*
         * Place the URL for your remote repo (GitHub, BitBucket) here
         */
         REMOTE_REPO_URL = 'https://github.com/jh175/PortableCliApp.git'
